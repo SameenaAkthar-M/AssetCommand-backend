@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3000;
 connectDB();
 app.use(express.json());
 app.use(cors({
-  origin: "https://assetcommand.netlify.app/",
+  origin: "https://assetcommand.netlify.app",
   credentials: true,
 }));
 
